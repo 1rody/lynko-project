@@ -13,7 +13,7 @@ export default function HowTo() {
                     Lynko is made for coders and for IA agents and YOU, download base → customize or code → publish.          
                 </p>
             </div>
-            <video className="min-w-3/4 bg-black rounded-4xl" src=""></video>
+            <Image width={1000} height={600} className="md:min-w-3/4 lg:min-w-2/4 min-w-3/4 bg-black rounded-4xl" src=""></Image>
             <div className="flex gap-4">
                     <ol className="text-xl flex items-center justify-center px-3 py-1 rounded-4xl flex gap-5 border-gray-200">
                         <li className="border-b-1 border-b-white hover:border-b-1 hover:border-b-black duration-200">

@@ -5,6 +5,7 @@ import HowTo from "@/src/components/landing/HowTo";
 import LLM from "@/src/components/landing/LLM";
 
 import Navigation from "@/src/components/layout/Navigation";
+import Footer from "@/src/components/layout/Footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
     <Hero/>
     <HowTo/>
     <LLM/>
+    <Footer/>
     </>
   );
 }
