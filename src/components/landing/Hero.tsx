@@ -6,7 +6,7 @@ import {motion} from "motion/react"
 export default function Hero() {
     return (
         <section id="hero" className="h-screen overflow-hidden flex flex-col w-full items-center justify-center">
-            <div id="hero-title" className="w-full overflow-hidden">
+            <div id="hero-title" className="w-full overflow-hidden flex flex-col items-center justify-center">
                 <motion.img initial={{ opacity: 0, }} animate={{ opacity: 1,}} transition={{ duration: 0.5 }}  className="z-10 absolute lg:-mt-17 -mt-10" alt="Particles" width={700} height={600} src="assets/PARTICLES.svg"/>
                 <motion.h1 initial={{ opacity: 0, }} animate={{ opacity: 1,}} transition={{ duration: 0.5 }}  className="lg:text-6xl text-4xl text-center">SYNC EVERY SOCIAL <br /> ON ONE home</motion.h1>
             </div>
