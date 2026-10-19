@@ -8,12 +8,12 @@ export default function HowTo() {
     return (
         <motion.section initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} id="how-to"  className="h-screen flex flex-col gap-10 w-full items-center justify-center">
             <div id="title">
-                <h1 className="text-6xl text-center font-black">CREATE YOUR LYNKO</h1>
-                <p className="max-w-5xl">
+                <h1 className="lg:text-6xl text-3xl text-center font-black">CREATE YOUR LYNKO</h1>
+                <p className="max-w-5xl text-center">
                     Lynko is made for coders and for IA agents and YOU, download base → customize or code → publish.          
                 </p>
             </div>
-            <video className="min-w-2/4 bg-black rounded-4xl" src=""></video>
+            <video className="min-w-3/4 bg-black rounded-4xl" src=""></video>
             <div className="flex gap-4">
                     <ol className="text-xl flex items-center justify-center px-3 py-1 rounded-4xl flex gap-5 border-gray-200">
                         <li className="border-b-1 border-b-white hover:border-b-1 hover:border-b-black duration-200">

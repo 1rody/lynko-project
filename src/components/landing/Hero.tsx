@@ -12,7 +12,7 @@ export default function Hero() {
             </div>
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}  id="samples-image" className="flex w-full items-center  justify-center mt-80 z-31">
                 <Image className="z-10 absolute   -mt-17" alt="Lynko examples" width={1000} height={600} src="assets/Samples.svg"/>
-            </motion.div >2
+            </motion.div >
         </section>
     )
 }
