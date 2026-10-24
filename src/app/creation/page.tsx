@@ -11,10 +11,7 @@ export default function Home() {
   return (
     <>
     <Navigation/>
-    <Hero/>
-    <HowTo/>
-    <LLM/>
-    <Footer/>
+    
     </>
   );
 }
